@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+header{
+    background-image: url(../Work.html/Sblime/assets/test-finny-scaled.jpg);
+}
+body{
+    background-color: rgb(38,31,25);
+    font-family: "Playfair Display", serif;
+}
+.BIGINFO{
+    color: bisque;
+}
+.nav-link{
+    color: bisque;
+}
+.Play{
+    font-size: 25px;
+}
+.fa-solid{
+    font-size: 40px;
+}
+.Newpage{
+    height: 30px;
+    color: bisque;
+    margin: 100px;
+    margin-bottom: 400px;
+}
+.tex{
+color: white;
+}
+img{
+    color: beige;
+}

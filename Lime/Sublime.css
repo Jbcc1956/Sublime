@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media (max-width:500px){
+.Subhead{
+    font: 10px;
+}
+    
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    line-height: 1.5;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 80px;
+    margin: auto;
+    background: linear-gradient(to right, #17ead9 0, #6078ea 100%);
+}
+.logo{
+    font-size: 30px;
+}
+.navlist{
+    display: flex;
+    gap: 10px;
+}
+.navlist li a{
+    transition: all .50s ease;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.navlist li a:hover{
+    color: #075fe4;
+    text-shadow: 3px 3px 20px #075fe4;
+}
+.h-btn{
+    color: #075fe4;
+    border: 2px solid #075fe4;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 8px;
+    transition: all .50s ease;
+}
+.h-btn:hover{
+    background: #075fe4;
+    color: #000;
+    box-shadow: 0 0 20px #075fe4;
+    /* transform: scale(1.1); */
+}
+.Next{
+    padding: 200px; 
+    width: 100%;
+    background: linear-gradient(to right, #17ead9 0, #6078ea 100%);
+}
+.Subhead h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+.Subhead p{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.Para{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.Business{
+    padding: 80px 40px 40px 80px;
+    transition: all .5s ease;
+    cursor: pointer;
+    background: #ebeced;
+    /* position: relative; */
+    display: flex;
+    gap: 60px;
+    width: 100%;
+    word-spacing: 5px;
+}
+.bus{
+    background: #fff;
+    border: 2px transparent;
+    padding: 45px;
+}
+.grow{
+    background: #fff;
+    border: 2px transparent;
+    padding: 50px;
+}
+.Stand{
+    background: #fff;
+    border: 2px transparent;
+    padding: 45px;
+}
+.Start{
+    background: #ebeced;
+    text-align: center;
+    padding: 15px;
+    /* position: relative; */
+}
+.Get{
+    font-size: 20px;
+    padding: 15px 15px;
+    margin: 15px;
+    background: #075fe4;
+    border-radius: 5px;
+    width: 20%;
+    color: white;
+}
+.Get:hover{
+    background-color: blue;
+}
+.Guide{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 90px;
+}
+.step{
+    font-size: 15px;
+    color: #7e8890;
+    font-weight: 300;
+}
+.person{
+    display: flex;
+    gap: 15px;
+}
+.person img{
+    width: 100%;
+    max-width: 30px;
+    border-radius: 40%;
+    margin-bottom: 1rem;
+}
+.Company img{
+    max-width: 100%;
+    height: auto;
+}
+.Company{
+    box-shadow: -19px 12px 104px -24px rgba(0, 0, 0, .15);
+}
+.Guide2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+.step2{
+    font-size: 15px;
+    color: #7e8890;
+    font-weight: 300;
+}
+.person2{
+    display: flex;
+    gap: 15px;
+}
+.person2 img{
+    width: 100%;
+    max-width: 30px;
+    border-radius: 40%;
+    margin-bottom: 1rem;
+}
+.Space{
+    margin: 20px 80px;
+}
+.Product{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 90px;
+}
+.behind{
+    font-size: 15px;
+    color: #7e8890;
+    font-weight: 300;
+}
+.person3{
+    display: flex;
+    gap: 15px;
+}
+.person3 img{
+    width: 100%;
+    max-width: 30px;
+    border-radius: 40%;
+    margin-bottom: 1rem;
+}
+.Duden img{
+    max-width: 100%;
+    height: auto;
+}
+.Duden{
+    box-shadow: -19px 12px 104px -24px rgba(0, 0, 0, .15);
+}
+.Benefits{
+    background: #6078ea;
+    padding: 45px;
+}
+.baby{
+    text-align: center;
+    margin: 0 auto;
+    /* max-width: 700px; */
+    font-size: 17px;
+}
+.baby p{
+    color: #ebeced;
+}
+.more{
+    font-weight: 400;
+    color: #ebeced;
+}
+.port-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+    margin: auto;
+    font-size: 17px;
+}
+.box{
+    justify-content: space-between;
+    padding: 30px;
+    color: #fff;
+    width: 85%;
+    margin: auto
+}
+.small{
+    display: flex;
+    gap: 20px;
+}
+.Benefits2{
+    /* margin-top: 100px; */
+    background:gray;
+    padding: 30px;
+}
